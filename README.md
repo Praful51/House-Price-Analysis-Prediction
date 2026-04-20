@@ -44,6 +44,8 @@
 
 **Dashboard:**
 
+![Dashboard](images/house_price_prediction_db.png)
+
 
 **Machine Learning:**
 
@@ -58,4 +60,6 @@
 - GrLivArea (secondary driver)
 
 - Model validated using actual vs predicted comparison and error analysis
+
+![Dashboard](images/actual_vs_predictedprice.png)
 
