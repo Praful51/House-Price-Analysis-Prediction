@@ -49,17 +49,28 @@
 
 **Machine Learning:**
 
-- Built Linear Regression (baseline) and Random Forest (final model)
+- Built a regression model to predict house prices based on property features
 
-- Random Forest achieved **R²** = **0.88** & **MAE** = **19485.75**, capturing non-linear relationships better & performed well than linear regression model, so it was chosen as the final model 
+- Performed feature selection using correlation analysis to retain the most impactful variables such as OverallQual, GrLivArea, and TotalBsmtSF
 
-- When Feature importance was found it confirms:
+- Split the data into training and testing sets (80:20) to evaluate model performance on unseen data
+Built a Linear Regression model as baseline, achieving moderate performance
 
-- OverallQual (dominant factor)
+- Trained a Random Forest Regressor, which significantly improved results by capturing non-linear relationships and feature interactions
 
-- GrLivArea (secondary driver)
+- Final model performance:
+ **R² Score: ~0.88**
+ **MAE: ~19,485**
 
-- Model validated using actual vs predicted comparison and error analysis
+- Conducted feature importance analysis, which identified:
+  - OverallQual as the most dominant predictor
+  - GrLivArea as the second most influential factor
+
+- Evaluated model performance using:
+ - Actual vs Predicted comparison
+
+- Generated predictions and integrated results into the Power BI dashboard for visualization and business insights
+
 
 ![Dashboard](images/actual_vs_predictedprice.png)
 
