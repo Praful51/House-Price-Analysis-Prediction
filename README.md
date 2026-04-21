@@ -2,7 +2,11 @@
 
 **Project Overview:**
 
-- End-to-end data analytics and machine learning project to analyze key drivers of house prices and build a predictive model for accurate price estimation.
+- This project focuses on analyzing key factors influencing house prices and building a predictive model to estimate property values. The dataset was processed through data cleaning, exploratory analysis, and feature selection to identify the most impactful variables affecting price.
+
+- A machine learning model was then developed to capture relationships between property features and prices, achieving strong predictive performance. The results were further translated into an interactive Power BI dashboard, enabling clear visualization of pricing trends, key drivers, and model performance.
+
+- The project demonstrates an end-to-end workflow combining data analysis, machine learning, and business-focused visualization to support data-driven decision-making in real estate.
 
  **Tech Stack:**
 
@@ -25,22 +29,26 @@
 **1. Construction Quality drives price**
 
  - Higher OverallQual significantly increases property value
- **Recommendation:** Focus on improving build quality to maximize returns
+ 
+**Recommendation:** Focus on improving build quality to maximize returns
 
 **2. Living Area has strong positive impact**
 
  - Larger GrLivArea correlates with higher prices
+
 **Recommendation:** Optimize usable living space in property design
 
 **3. Structural features influence pricing**
 
  - Garage capacity and basement size contribute to value
- **Recommendation:** Include functional features like parking and storage
+
+**Recommendation:** Include functional features like parking and storage
 
 **4. Newer properties command higher prices**
 
  - YearBuilt shows upward pricing trend
- **Recommendation:** Invest in modern construction and renovations
+
+**Recommendation:** Invest in modern construction and renovations
 
 **Dashboard:**
 
